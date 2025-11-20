@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveling agent doc come</title>
+    <link rel="stylesheet" href="../css/Travel.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap-5.3.8-dist/css/bootstrap.min.css">
+
+
+    <style>
+        *{
+        margin: 0;
+        border: 0;
+       }
+    </style>
+</head>
+
+<!--tinations Page
+Showcase at least 15 holiday destinations or packages.
+Use a grid layout (Bootstrap cards or similar) with images, short descriptions, and pricing.
+Include at least one interactive feature (e.g., filtering or a hover effect).
+ -->
+
+
+<body>
+    <!-- This header used for all index pages. -->
+    <header>
+        <div class="container-fluid justify-content-between header-container" >
+          <div class="header-row">
+            <div class="text Travel const-color-branding"> Travel</div>
+            <div class="text Agent const-color">Agent</div>
+          </div>
+          <nav class="navbar">
+            <a href="../html/index1.html">Home</a>
+            <a href="../html/index2.html">Destination</a>
+            <a href="../html/index3.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+
+      <!--As a banner for index 2:
+      1. create a box and set size.
+      2. create a room for text.-->
+    <div class="upper-section">
+        <div class="text">
+            <h1 class="const-color"> 1 5 Locations </h1>
+        </div>
+    </div>
+
+
+    <!-- try to use grid and hoover for main section. -->
+    <!-- Main section: 
+     1. I seperate five big boxed as home box for each row to make it easy to justify.2. Drawing a line as row from bootsrtrap, helping justify the positions of each content boxes.
+     3. Put pic with pic box first and modify its size to fit the item box, then I create context with box. 
+     4. Then used the same way to create 5 rows. -->
+    <div class="container">     <!--The row 1-->
+        <div class="row m-5 justify-content-around">        
+            <div class="col-12 col-md-4 ">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d1.jpeg" alt="It's a pic of detination oen.">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Paris, France</h3>
+                            <p>Discover the City of Light with its iconic Eiffel Tower, romantic cafés, and world-class art.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€3899 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d2.jpeg" alt="It's a pic of detination two.">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Rome, Italy</h3>
+                            <p>Walk through ancient ruins and enjoy authentic Italian cuisine in the heart of history.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€4199 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d3.jpeg" alt="It's a pic of detination three.">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Barcelona, Spain</h3>
+                            <p>Vibrant streets, Gaudí’s architecture, and sunny Mediterranean beaches await you.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€2899 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">     <!--The row 2-->
+        <div class="row m-5 justify-content-around">
+            <div class="col-12 col-md-4 ">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d4.jpeg" alt="It's a pic of detination four.">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Amsterdam, Netherlands</h3>
+                            <p>Cruise through scenic canals and explore rich Dutch culture and museums.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€3799 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d5.jpeg" alt="It's a pic of detination five.">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Berlin, Germany</h3>
+                            <p>A city of contrast—historic landmarks blend with edgy modern art and nightlife.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€2999 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d6.jpeg" alt="It's a pic of detination six.">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Vienna, Austria</h3>
+                            <p>Elegant palaces, classical music, and cozy coffee houses fill this imperial capital.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€3699 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">     <!--The row 3-->
+        <div class="row m-5 justify-content-around">
+            <div class="col-12 col-md-4 ">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d7.jpeg" alt="It's a pic of detination seven.">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Prague, Czech Republic</h3>
+                            <p>A fairytale city with gothic charm, cobbled streets, and a magical castle skyline.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp; 2999 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d8.jpeg" alt="It's a pic of detination eight.">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Budapest, Hungary</h3>
+                            <p>Thermal spas, riverside views, and stunning architecture on both sides of the Danube.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€4899 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d9.png" alt="It's a pic of detination nine.">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Lisbon, Portugal</h3>
+                            <p>Colorful streets, vintage trams, and delicious pastéis de nata by the seaside.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€3399 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">     <!--The row 4-->
+        <div class="row m-5 justify-content-around">
+            <div class="col-12 col-md-4 ">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d10.avif" alt="It's a pic of detination ten.">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Lucerne, Switzerland</h3>
+                            <p>Nestled by a lake and mountains, it’s perfect for scenic views and peaceful vibes.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€3799 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d11.avif" alt="It's a pic of detination eleven.">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Florence, Italy</h3>
+                            <p>Renaissance masterpieces and beautiful Tuscan charm at every turn.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€3599 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d12.avif" alt="It's a pic of detination twelve.">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Santorini, Greece</h3>
+                            <p>Whitewashed buildings, blue domes, and unforgettable sunsets by the Aegean Sea.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€2999 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">     <!--The row 5-->
+        <div class="row m-5 justify-content-around">
+            <div class="col-12 col-md-4 ">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d13.avif" alt="t's a pic of detination thirteen">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Edinburgh, Scotland </h3>
+                            <p>Medieval history meets modern charm in this hilly capital crowned by a castle.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€2899 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d14.avif" alt="t's a pic of detination fourteen">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Dubrovnik, Croatia</h3>
+                            <p>Walled city beauty on the Adriatic, with crystal-clear water and ancient vibes.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€3599 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="https://european-union.europa.eu/contact-eu/europe-and-worldwide-offices_en" class="items-link">
+                    <div class="items">
+                        <div class="img-thumbnail">
+                            <img src="../img/d15.avif" alt="t's a pic of detination fifteen">
+                        </div>
+                        <div class="text">
+                            <h3 class="const-color">Bruges, Belgium </h3>
+                            <p>Quaint canals, chocolate shops, and cobbled medieval streets await you.
+                            </p>
+                            <p class="price"> Price:&nbsp;&nbsp;€3999 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+ <!-- bottom section -->
+ <div class="container-fluid bottom-container">
+    <p3 class="const-color">Contact information</p3>
+    <div class="row justify-content-around">
+      <div class="col-4">
+        <p class="const-color">Email: ncitravel@studen.com <br>
+          TEL: +353 87 234 878
+        </p>
+      </div>
+      <div class="col-4">
+        <p class="const-color"> Company address <br>
+          <a class="const-color" style="text-decoration: none;" href="https://www.google.com/maps/@53.3489099,-6.2456721,17z?entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D">1 Mayor Street Lower, Dublin 1, D01 K6W2.</a>
+      </div>
+    </div>
+  </div>
+  
+
+
+                          
+    <script src="../bootstrap-5.3.8-dist/js/bootstrap.min.js" ></script>
+    <script src="../bootstrap-5.3.8-dist/popper.min.js" ></script>
+</body>
+</html>

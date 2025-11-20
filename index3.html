@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveling agent doc come</title>
+    <link rel="stylesheet" href="../css/Travel.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    
+  <style>
+      *{
+      margin: 0;
+      border: 0;
+      padding: 0;
+      font-family:'Roboto', sans-serif;
+      }
+
+     
+      
+  </style>
+</head>
+
+
+
+
+<body>
+  <header>
+    <div class="container-fluid justify-content-between header-container" >
+      <div class="header-row">
+        <div class="text Travel const-color-branding"> Travel</div>
+        <div class="text Agent const-color">Agent</div>
+      </div>
+      <nav class="navbar">
+        <a href="../html/index1.html">Home</a>
+        <a href="../html/index2.html">Destination</a>
+        <a href="../html/index3.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  
+ 
+<!-- banner -->
+  <div class="container">
+    <div class="form-t text-center mt-5 mb-5">
+      <h1>Get a Holiday Quote From Our Travel Experts</h1>
+      <hr>
+    </div>
+  </div>
+
+
+  <!-- cereate a form including javascript,  formula from tizag.   -->
+  <div class="container mb-5">
+    <form onsubmit="return formValidator()" method="get" > 
+      <div class="mb-3">
+        <label for="Fname" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="Fname" autocomplete="given-name" >
+      </div>
+
+      <div class="mb-3">
+        <label for="Lname" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="Lname" autocomplete="name" >
+      </div>
+
+      <div class="mb-3">
+        <p class="form-label">Gender:</p>
+
+        <input type="radio"  id="male" name="gender" >
+        <label for="male">Male</label>
+
+        <input type="radio"  id="female" name="gender" >
+        <label for="female">Female</label><br>
+      </div>
+
+      <div class="mb-3">
+        <label  for="birthday" class="form-label">Birthday </label>
+        <input id="birthday" type="date" class="form-control" autocomplete="bday-full" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="Phone" class="form-label">Contact number</label>
+        <input type="tel" class="form-control" placeholder="353 98 876 6254" id="Phone" autocomplete="tel" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="Email1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="Email1" autocomplete="email" >
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+
+
+      <div class="mb-3">
+        <p class="form-label">Payment:</p>
+
+        <input type="radio"  id="tenasfer" name="payment" required>
+        <label for="tenasfer">Tenasfer</label>
+
+        <input type="radio"  id="Credit_Card" name="payment" required>
+        <label for="Credit_Card">Credit Card</label><br>
+      </div>
+
+      <hr>
+      <div class="mb-3 form-group has-label form-value">
+        <div class="control-label">
+          <span class="text">Your Enquiry</span>
+        </div>
+        <textarea id="txtarea-enquiryBox" name="enq-enquiryBox" rows="4" class="form-control big" maxlength="500" placeholder="Enter any other relevant information here"></textarea>
+      </div>
+      <hr>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </div>
+
+
+
+
+  
+  <!-- bottom section -->
+  <div class="container-fluid bottom-container">
+    <p3 class="const-color">Contact information</p3>
+    <div class="row justify-content-around">
+      <div class="col-4">
+        <p class="const-color">Email: ncitravel@studen.com <br>
+          TEL: +353 87 234 878
+        </p>
+      </div>
+      <div class="col-4">
+        <p class="const-color"> Company address <br>
+          <a class="const-color" style="text-decoration: none;" href="https://www.google.com/maps/@53.3489099,-6.2456721,17z?entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D">1 Mayor Street Lower, Dublin 1, D01 K6W2.</a>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="../js/index.js"></script>
+  <!-- using bootstrap-5 -->
+  <script src="../bootstrap-5.3.8-dist/js/bootstrap.min.js" ></script>
+  <script src="../bootstrap-5.3.8-dist/popper.min.js" ></script>    
+</body>
+</html>
+
+
+
+
+<!-- Form must include: Name, Email, Phone, Query Type (drop-down: Booking, Payment, General Info, Other), and Message.
+Apply client-side validation for:
+Valid email format
+Required fields
+Minimum message length
+Add confirmation/error messages using JavaScript/jQuery. -->

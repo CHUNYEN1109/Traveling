@@ -1,0 +1,169 @@
+/* consistant color of scheme and branding */
+.const-color-branding{
+  color:rgb(190, 14, 14);
+}
+ 
+ .const-color{
+  color:rgb(251, 150, 237);
+}
+
+.header-container{
+  display: flex; align-items: center; background-color: black;
+}
+
+.header-row{
+  display:flex; align-items: center;
+}
+
+/* bottom section */
+.bottom-container{
+  text-align: center; background-color: black;
+}
+
+
+/* top nav_bar section*/
+
+.navbar{
+  display: flex;
+  gap: 20px;
+  margin-right: 5px;
+}
+
+.navbar a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: large;
+}
+
+nav a:hover{
+  box-shadow: 4px 3px 10px;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.Travel{
+font-size: 20px;
+}
+.Agent{
+
+font-size: 20px;
+}
+.right-side{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 10px;
+}
+
+.right-side > li{
+list-style: none;
+padding: 30px;
+font-size: 25px;
+
+}
+.right-side > li> a{
+color: rgb(255, 255, 255);
+font-size: 25px;
+}
+/* jet 2 and 3pics */
+
+.upper-section{
+width: 100%;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(../img/banner.avif);
+background-size: cover;
+background-position: center;
+}
+
+.upper-section .text{
+text-align: center;
+}
+
+.text2 p{
+    text-align: left;
+}
+
+/* index-1 mian section */
+.s-title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:xx-large;
+  text-align: center;
+}
+
+.pic img{
+  object-fit: cover;
+  width: 300px;
+  height: 250px;
+}
+
+/* Introduction */
+.intro-box{
+  border-top: 2px rgb(251, 150, 237) dotted;
+  border-bottom: 2px rgb(251, 150, 237) dotted;
+  margin-bottom: 1em;
+}
+.intro-p{
+  text-align: left; background-color: rgb(242, 239, 239); border-radius: 20px; padding: 1em;
+}
+
+
+/* index-2 destionation main */
+.info-img {
+width: 100%;
+border-radius: 30px;
+margin-top: 10px;
+display: block;
+margin-left: 0;
+margin-right: auto;
+}
+ 
+.img-thumbnail img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.items-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.items-link:hover .items{
+    box-shadow: 4px 3px 10px;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.price{
+  text-align: end;
+  color:#e63946;
+  font-family:  'Montserrat', sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* index-3 */
+
+.form-t{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:xx-large;
+  color:rgb(251, 150, 237);
+}
+
+/* @media(min-width:575.78px){
+  header button {
+    display:none;
+  }
+
+} */
+
+
+
+
+
+
+
+  
